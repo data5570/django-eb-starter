@@ -4,12 +4,13 @@
 
 ### Simple Deployment
 
-- **EB Environment URL**: [eb-cloud-ninja-dev.us-west-2.elasticbeanstalk.com](http://eb-cloud-ninja-dev.us-west-2.elasticbeanstalk.com/)
+- **EB Environment Base URL**: [eb-cloud-ninja-dev.us-west-2.elasticbeanstalk.com](http://eb-cloud-ninja-dev.us-west-2.elasticbeanstalk.com/)
 - **Source Code**: [Django EB Starter - Master Branch](https://github.com/data5570/django-eb-starter/tree/master)
 
 ### Multiple Apps Deployment
 
-- **EB Environment URL**: [eb-cloud-ninja-multiple-apps.eba-f8zid3hg.us-west-2.elasticbeanstalk.com/users/hello/](http://eb-cloud-ninja-multiple-apps.eba-f8zid3hg.us-west-2.elasticbeanstalk.com/users/hello/)
+- **EB Environment Base URL**: [eb-cloud-ninja-multiple-apps.eba-f8zid3hg.us-west-2.elasticbeanstalk.com/](http://eb-cloud-ninja-multiple-apps.eba-f8zid3hg.us-west-2.elasticbeanstalk.com/)
+- **EB Environment Users URL**: [eb-cloud-ninja-multiple-apps.eba-f8zid3hg.us-west-2.elasticbeanstalk.com/users/hello/](http://eb-cloud-ninja-multiple-apps.eba-f8zid3hg.us-west-2.elasticbeanstalk.com/users/hello/)
 - **Source Code**: [Django EB Starter - Multiple Apps Branch](https://github.com/data5570/django-eb-starter/tree/multiple-apps)
 
 ---
