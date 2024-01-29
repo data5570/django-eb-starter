@@ -19,7 +19,7 @@ from .views import hello_world_view
 
 
 urlpatterns = [
-    path('hello/', hello_world_view, name='hello_world'),
+    path('hello/', hello_world_view, name='hello_users_world'),
 
 ]
 
