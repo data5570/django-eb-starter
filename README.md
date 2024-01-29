@@ -29,3 +29,7 @@ eb status eb-cloud-ninja-multiple-apps
 
 
 if when running `python manage.py runserver` if the cloud9 console does not provide you with a url then restart cloud9
+
+todo: start from example like https://github.com/redianmarku/Django-Twitter-Clone
+
+todo: make it so when check-in it automatically runs `eb deploy`
