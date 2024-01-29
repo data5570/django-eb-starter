@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Epic Hello Users World</title>
+    <style>
+        body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #407df7;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+    animation: fadeIn 2s ease-in-out;
+}
+
+.title {
+    font-size: 4em;
+    animation: popIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes popIn {
+    0% { transform: scale(0); }
+    60% { transform: scale(1.2); }
+    100% { transform: scale(1); }
+}
+
+    </style>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+    const title = document.querySelector('.title');
+    title.addEventListener('mouseover', () => {
+        title.style.transform = 'rotate(360deg)';
+        title.style.transition = 'transform 0.8s ease-in-out';
+    });
+
+    title.addEventListener('mouseout', () => {
+        title.style.transform = 'rotate(0deg)';
+    });
+});
+
+    </script>
+    
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Hello, Users World!</h1>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
