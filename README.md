@@ -6,4 +6,26 @@
  ----------------------------------------------------------------- 
 
 
+git init
 
+git clone
+
+python manage.py makemigrations
+
+python manage.py migrate
+
+
+eb create eb-cloud-ninja-dev
+
+eb create eb-cloud-ninja-multiple-apps
+
+eb deploy eb-cloud-ninja-dev
+
+eb deploy eb-cloud-ninja-multiple-apps
+
+eb status eb-cloud-ninja-dev
+
+eb status eb-cloud-ninja-multiple-apps
+
+
+if when running `python manage.py runserver` if the cloud9 console does not provide you with a url then restart cloud9

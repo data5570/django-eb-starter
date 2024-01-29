@@ -21,10 +21,7 @@ from .views import hello_world_view
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('hello/', hello_world_view, name='hello_world'),
-<<<<<<< HEAD
-    path('users/', include('dj_users_app.urls'))
-=======
-    path('', hello_world_view, name='hello_world'),
->>>>>>> master
+    path('users/', include('dj_users_app.urls')),
+    path('', hello_world_view, name='default')
 ]
 
